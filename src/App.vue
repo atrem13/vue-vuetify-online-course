@@ -4,6 +4,7 @@
     <v-main>
       <Banner/>
       <CourseAvailable/>
+      <FreeOnlineCourse/>
     </v-main>
   </v-app>
 </template>
@@ -12,6 +13,7 @@
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import CourseAvailable from './components/CourseAvailable'
+import FreeOnlineCourse from './components/FreeOnlineCourse'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
   components: {
     Navbar,
     Banner,
-    CourseAvailable
+    CourseAvailable,
+    FreeOnlineCourse
   },
 
   data: () => ({
