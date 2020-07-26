@@ -1,6 +1,6 @@
 <template>
   <div>
-      <v-row class="mt-5">
+      <v-row class="mt-5 mb-5">
         <v-col
           class="freeCourseLeft white--text"
           md="6"
@@ -11,7 +11,7 @@
                 md="10"
                 offset-md="1"
               >
-                <div class="text-h5">Online Course For Free</div>
+                <div class="text-h5 font-weight-bold">Online Course For Free</div>
                 <div class="text-caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate assumenda ducimus rerum praesentium commodi facilis ad c</div>
                 <v-form v-model="formValid">
                   <v-container>
@@ -78,7 +78,7 @@
                 offset-md="1"
               >
                 <div class="text-h6 text-center">Next Set Of Free Online Course</div>
-                <div class="text-h5 text-center white--text text-uppercase">Launching Soon</div>
+                <div class="text-h5 text-center font-weight-bold white--text text-uppercase">Launching Soon</div>
                 <v-row style="margin-top:50px;">
                   <v-col
                     v-for="(time, i) in launchingTime"

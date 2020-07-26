@@ -2,6 +2,7 @@
   <div>
       <v-parallax
         height="700"
+        class="mb-5"
         src="../assets/banner/Mask Group 1.png"
       >
         <v-container>
